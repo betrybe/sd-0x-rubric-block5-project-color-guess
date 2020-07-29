@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.boxColor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  
+  margin: 0px 5px 0px 5px;
+  
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+#text-difficult {
+  width:50px;
+}
+
+.btn {
+  padding: 6px;
+}
+
+.text-difficult, #lbl-tex-difficult {
+  visibility: hidden;
+}

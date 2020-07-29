@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adivinhar Cores</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <div>
+            <h1 id="title">Adivinhe a cor!</h1>
+            <input type="button" class="btn btn-difficult" value="Normal">
+            <input type="button" class="btn btn-difficult" value="Medio">
+            <input type="button" class="btn btn-difficult" value="Dificil">
+            <input type="button" class="btn btn-difficult" value="Custom"><br>
+            <label id="lbl-tex-difficult">Quantidade de cores que deseja 3 a 20:
+            <input type="number" id="text-difficult" style="visibility: hidden;"class="text-difficult" max-lenght="10" min-length="3"></label>
+            <p id="rgb-color">
+                <div id="score"></div>
+            </p>
+        </div>
+        <div class="boxColor"></div>
+        <div>
+            <h3 id="answer">Escolha uma cor!</h3>
+            <input class="btn" id="btn-change-difficult" type="button" value="Mudar dificuldade">
+            <input class="btn" id="reset-game" type="button" value="Resetar o jogo/cores">
+        </div>
+        
+    </main>
+    
+    <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
